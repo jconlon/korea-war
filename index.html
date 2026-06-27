@@ -102,6 +102,53 @@
     .outcome-win  { color: #5fd45f; font-weight: 600; }
     .outcome-loss { color: #e05050; font-weight: 600; }
     .outcome-mix  { color: #e0a040; font-weight: 600; }
+
+    #toolbar {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .toolbar-btn {
+      padding: 5px 12px;
+      border-radius: 20px;
+      border: 1px solid #3a5a8a;
+      background: #1e3a5f;
+      color: #c8dff5;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .toolbar-btn:hover { background: #274f80; border-color: #6aa0d0; }
+    .toolbar-btn.ge-btn { border-color: #4a8a5a; background: #1e3f2a; color: #a8e0b8; }
+    .toolbar-btn.ge-btn:hover { background: #27522f; border-color: #6abf80; }
+
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: #16213e;
+      border: 1px solid #4a8a5a;
+      color: #a8e0b8;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      z-index: 9999;
+      opacity: 0;
+      transition: opacity 0.3s, transform 0.3s;
+      pointer-events: none;
+      max-width: 480px;
+      text-align: center;
+    }
+    #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
   </style>
 </head>
 <body>
@@ -116,7 +163,12 @@
     <button class="filter-btn phase4" data-phase="4">Phase 4: Stalemate</button>
   </div>
   <span id="count">50 engagements</span>
+  <div id="toolbar">
+    <button class="toolbar-btn ge-btn" id="ge-btn">&#127758; View in Google Earth</button>
+    <a class="toolbar-btn" href="output/korean-war-battles.kml" download>&#11015; Download KML</a>
+  </div>
 </div>
+<div id="toast"></div>
 
 <div id="map"></div>
 
@@ -291,6 +343,23 @@ legend.onAdd = () => {
   return div;
 };
 legend.addTo(map);
+
+// Google Earth Web integration
+const KML_URL = 'https://jconlon.github.io/korea-war/output/korean-war-battles.kml';
+const GE_URL  = 'https://earth.google.com/web/search/' + encodeURIComponent(KML_URL);
+
+function showToast(msg, duration = 4000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), duration);
+}
+
+document.getElementById('ge-btn').addEventListener('click', () => {
+  navigator.clipboard.writeText(KML_URL).catch(() => {});
+  window.open(GE_URL, '_blank');
+  showToast("KML URL copied. If it doesn’t load automatically: ☰ → Projects → Open KML file from URL", 6000);
+});
 
 renderMarkers();
 </script>
