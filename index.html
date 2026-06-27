@@ -130,25 +130,83 @@
     .toolbar-btn.ge-btn { border-color: #4a8a5a; background: #1e3f2a; color: #a8e0b8; }
     .toolbar-btn.ge-btn:hover { background: #27522f; border-color: #6abf80; }
 
-    #toast {
+    #ge-modal-overlay {
+      display: none;
       position: fixed;
-      bottom: 24px;
-      left: 50%;
-      transform: translateX(-50%) translateY(20px);
-      background: #16213e;
-      border: 1px solid #4a8a5a;
-      color: #a8e0b8;
-      padding: 10px 18px;
-      border-radius: 8px;
-      font-size: 13px;
-      z-index: 9999;
-      opacity: 0;
-      transition: opacity 0.3s, transform 0.3s;
-      pointer-events: none;
-      max-width: 480px;
-      text-align: center;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 9998;
+      align-items: center;
+      justify-content: center;
     }
-    #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+    #ge-modal-overlay.open { display: flex; }
+    #ge-modal {
+      background: #16213e;
+      border: 1px solid #0f3460;
+      border-radius: 10px;
+      padding: 24px 28px;
+      max-width: 480px;
+      width: 90%;
+      z-index: 9999;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    }
+    #ge-modal h2 { color: #e2b96f; font-size: 15px; margin-bottom: 14px; }
+    #ge-modal p  { font-size: 13px; color: #ccc; margin-bottom: 12px; line-height: 1.5; }
+    #ge-modal ol { font-size: 13px; color: #ccc; padding-left: 20px; margin-bottom: 16px; line-height: 1.8; }
+    #ge-modal ol li code { background: #0f2040; padding: 1px 6px; border-radius: 4px; font-size: 12px; color: #a8e0b8; }
+    #kml-url-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    #kml-url-display {
+      flex: 1;
+      background: #0f2040;
+      border: 1px solid #2a4a6a;
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 11px;
+      color: #a8d8f0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: monospace;
+      cursor: default;
+    }
+    #copy-btn {
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #4a8a5a;
+      background: #1e3f2a;
+      color: #a8e0b8;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    #copy-btn:hover { background: #27522f; }
+    #copy-btn.copied { border-color: #5fd45f; color: #5fd45f; }
+    #ge-modal-footer {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    .modal-action-btn {
+      padding: 7px 16px;
+      border-radius: 6px;
+      border: 1px solid #3a5a8a;
+      background: #1e3a5f;
+      color: #c8dff5;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .modal-action-btn:hover { background: #274f80; }
+    .modal-action-btn.primary { background: #1e3f2a; border-color: #4a8a5a; color: #a8e0b8; }
+    .modal-action-btn.primary:hover { background: #27522f; }
   </style>
 </head>
 <body>
@@ -168,7 +226,28 @@
     <a class="toolbar-btn" href="output/korean-war-battles.kml" download>&#11015; Download KML</a>
   </div>
 </div>
-<div id="toast"></div>
+
+<div id="ge-modal-overlay">
+  <div id="ge-modal">
+    <h2>&#127758; Open in Google Earth Web</h2>
+    <p>Google Earth Web requires a manual import. Copy the KML URL below, then follow these steps:</p>
+    <ol>
+      <li>Click <code>Open Google Earth Web</code> below</li>
+      <li>In Google Earth, click <code>☰</code> (menu, top-left)</li>
+      <li>Select <code>Projects</code> → <code>New Project</code></li>
+      <li>Choose <code>Import KML file from the web</code></li>
+      <li>Paste the URL and click <code>Open</code></li>
+    </ol>
+    <div id="kml-url-row">
+      <div id="kml-url-display">https://jconlon.github.io/korea-war/output/korean-war-battles.kml</div>
+      <button id="copy-btn">Copy URL</button>
+    </div>
+    <div id="ge-modal-footer">
+      <button class="modal-action-btn" id="ge-close-btn">Close</button>
+      <a class="modal-action-btn primary" href="https://earth.google.com/web/" target="_blank" rel="noopener">Open Google Earth Web &#8599;</a>
+    </div>
+  </div>
+</div>
 
 <div id="map"></div>
 
@@ -344,21 +423,21 @@ legend.onAdd = () => {
 };
 legend.addTo(map);
 
-// Google Earth Web integration
-const KML_URL = 'https://jconlon.github.io/korea-war/output/korean-war-battles.kml';
-const GE_URL  = 'https://earth.google.com/web/search/' + encodeURIComponent(KML_URL);
+// Google Earth Web modal
+const KML_URL = ‘https://jconlon.github.io/korea-war/output/korean-war-battles.kml’;
+const overlay  = document.getElementById(‘ge-modal-overlay’);
+const copyBtn  = document.getElementById(‘copy-btn’);
 
-function showToast(msg, duration = 4000) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), duration);
-}
+document.getElementById(‘ge-btn’).addEventListener(‘click’, () => overlay.classList.add(‘open’));
+document.getElementById(‘ge-close-btn’).addEventListener(‘click’, () => overlay.classList.remove(‘open’));
+overlay.addEventListener(‘click’, e => { if (e.target === overlay) overlay.classList.remove(‘open’); });
 
-document.getElementById('ge-btn').addEventListener('click', () => {
-  navigator.clipboard.writeText(KML_URL).catch(() => {});
-  window.open(GE_URL, '_blank');
-  showToast("KML URL copied. If it doesn’t load automatically: ☰ → Projects → Open KML file from URL", 6000);
+copyBtn.addEventListener(‘click’, () => {
+  navigator.clipboard.writeText(KML_URL).then(() => {
+    copyBtn.textContent = ‘✓ Copied’;
+    copyBtn.classList.add(‘copied’);
+    setTimeout(() => { copyBtn.textContent = ‘Copy URL’; copyBtn.classList.remove(‘copied’); }, 2000);
+  });
 });
 
 renderMarkers();
