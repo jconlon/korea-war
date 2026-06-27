@@ -424,19 +424,19 @@ legend.onAdd = () => {
 legend.addTo(map);
 
 // Google Earth Web modal
-const KML_URL = ‘https://jconlon.github.io/korea-war/output/korean-war-battles.kml’;
-const overlay  = document.getElementById(‘ge-modal-overlay’);
-const copyBtn  = document.getElementById(‘copy-btn’);
+const KML_URL = 'https://jconlon.github.io/korea-war/output/korean-war-battles.kml';
+const overlay  = document.getElementById('ge-modal-overlay');
+const copyBtn  = document.getElementById('copy-btn');
 
-document.getElementById(‘ge-btn’).addEventListener(‘click’, () => overlay.classList.add(‘open’));
-document.getElementById(‘ge-close-btn’).addEventListener(‘click’, () => overlay.classList.remove(‘open’));
-overlay.addEventListener(‘click’, e => { if (e.target === overlay) overlay.classList.remove(‘open’); });
+document.getElementById('ge-btn').addEventListener('click', () => overlay.classList.add('open'));
+document.getElementById('ge-close-btn').addEventListener('click', () => overlay.classList.remove('open'));
+overlay.addEventListener('click', e => { if (e.target === overlay) overlay.classList.remove('open'); });
 
-copyBtn.addEventListener(‘click’, () => {
+copyBtn.addEventListener('click', () => {
   navigator.clipboard.writeText(KML_URL).then(() => {
-    copyBtn.textContent = ‘✓ Copied’;
-    copyBtn.classList.add(‘copied’);
-    setTimeout(() => { copyBtn.textContent = ‘Copy URL’; copyBtn.classList.remove(‘copied’); }, 2000);
+    copyBtn.textContent = '✓ Copied';
+    copyBtn.classList.add('copied');
+    setTimeout(() => { copyBtn.textContent = 'Copy URL'; copyBtn.classList.remove('copied'); }, 2000);
   });
 });
 
