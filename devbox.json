@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "just@latest",
+    "nushell@latest",
+    "github-cli@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\""
+    ],
+    "scripts": {
+      "agent":      ["claude --name korea-war --continue"],
+      "agent-new":  ["claude --name korea-war"],
+      "agent-plan": ["claude --name korea-war --model opus --permission-mode plan"],
+      "agent-small":["claude --name korea-war --model haiku"],
+      "agent-big":  ["claude --name korea-war --model opus"]
+    }
+  }
+}

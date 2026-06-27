@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Korean War Battle Map (1950-1953)</name>
+  <description>50 significant engagements of the Korean War, grouped by phase. Toggle phase folders to filter by period.</description>
+  <Style id="phase1">
+    <IconStyle>
+      <color>ff0000ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+  </Style>
+  <Style id="phase2">
+    <IconStyle>
+      <color>ffff0000</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+  </Style>
+  <Style id="phase3">
+    <IconStyle>
+      <color>ff00a5ff</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+  </Style>
+  <Style id="phase4">
+    <IconStyle>
+      <color>ff800080</color>
+      <scale>1.1</scale>
+      <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon>
+    </IconStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+  </Style>
+  <Folder>
+    <name>Phase 1: North Korean Invasion (Jun-Sep 1950)</name>
+    <visibility>1</visibility>
+    <Placemark>
+      <name>Fall of Seoul</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Fall of Seoul</h2>
+<table>
+  <tr><td>Date</td><td>1950-06-25 – 1950-06-28</td></tr>
+  <tr><td>Location</td><td>Seoul, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st, 2nd, and 7th Divisions, Republic of Korea Army (ROKA)</li><li>Capital Division, ROKA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>1st, 3rd, and 4th Divisions, Korean People's Army (KPA)</li><li>105th Armored Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~8,000 killed, wounded, or captured; loss of most heavy equipment</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory; Seoul captured</td></tr>
+</table>
+<p>The Korean People's Army launched a surprise invasion across the 38th Parallel at 04:00 on June 25, 1950. Three ROKA divisions defending Seoul were rapidly overwhelmed by KPA armored columns spearheaded by T-34 tanks. The South Korean capital fell within three days, with the Han River bridges demolished in retreat, trapping thousands of ROK soldiers north of the river.</p>
+<p class='sig'>Opening blow of the Korean War; collapse of ROKA defensive line precipitated US intervention</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>126.978,37.566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Osan</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Osan</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-05</td></tr>
+  <tr><td>Location</td><td>Osan, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>Task Force Smith (1st Battalion, 21st Infantry Regiment, 24th Infantry Division, USA)</li><li>52nd Field Artillery Battalion (less one battery)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>4th Infantry Division, KPA</li><li>107th Tank Regiment, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~180 killed, wounded, or captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~42 killed, 4 tanks destroyed</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory</td></tr>
+</table>
+<p>Task Force Smith, the first US ground combat unit committed to Korea, established a blocking position north of Osan to delay the KPA advance. Lacking anti-tank weapons effective against T-34 tanks, the outnumbered force was overrun. The engagement demonstrated the unpreparedness of US occupation forces in Japan for conventional combat.</p>
+<p class='sig'>First engagement between US and KPA forces; exposed critical US combat unreadiness</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>127.077,37.149,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pyongtaek</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pyongtaek</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-06 – 1950-07-07</td></tr>
+  <tr><td>Location</td><td>Pyongtaek, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>3rd Battalion, 34th Infantry Regiment, 24th Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>4th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~100 killed, wounded, or captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~50 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory</td></tr>
+</table>
+<p>Following the collapse at Osan, elements of the 24th Infantry Division attempted to establish a new defensive line at Pyongtaek. The KPA enveloped the position and the US battalion was forced into a disorganized retreat, continuing the pattern of KPA exploitation against unprepared American defenders.</p>
+<p class='sig'>Continued UN retreat down the peninsula; 24th Division suffered repeated defeats in early July</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>127.089,36.992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Chochiwon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Chochiwon</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-08 – 1950-07-12</td></tr>
+  <tr><td>Location</td><td>Chochiwon, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>21st Infantry Regiment, 24th Infantry Division, USA</li><li>34th Infantry Regiment, 24th Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>3rd and 4th Divisions, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~650 killed, wounded, or captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA tactical victory; UN forces conducted fighting withdrawal</td></tr>
+</table>
+<p>The 21st Infantry Regiment, 24th Division fought a series of delaying actions around Chochiwon over four days, attempting to slow the KPA advance toward Taejon. Despite inflicting significant casualties on the KPA, the regiment was forced to withdraw with heavy losses as enemy forces outflanked each defensive position.</p>
+<p class='sig'>US forces began to slow KPA advance but could not halt it; demonstrated delaying action doctrine</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>127.301,36.603,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Taejon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Taejon</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-14 – 1950-07-21</td></tr>
+  <tr><td>Location</td><td>Taejon, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>34th Infantry Regiment, 24th Infantry Division, USA</li><li>19th Infantry Regiment, 24th Infantry Division, USA</li><li>24th Reconnaissance Company</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>3rd Infantry Division, KPA</li><li>4th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,500 killed, wounded, or captured; MG Dean captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,800 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory</td></tr>
+</table>
+<p>The 24th Infantry Division's last stand at Taejon ended in disaster when KPA forces infiltrated behind the city and cut off the garrison. Major General William F. Dean, the division commander, was captured while personally attempting to knock out KPA tanks with a bazooka — the highest-ranking US officer captured in the war. The city fell after fierce street fighting.</p>
+<p class='sig'>Decisive defeat of 24th Division; capture of MG Dean; KPA advance nearly reached Pusan</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>127.427,36.321,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Hadong</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Hadong</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-27</td></tr>
+  <tr><td>Location</td><td>Hadong, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>3rd Battalion, 29th Infantry Regiment, USA</li><li>ROKA 17th Regiment elements</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>6th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~313 killed or captured out of ~400 engaged</td></tr>
+  <tr><td>Enemy Casualties</td><td>~100 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory</td></tr>
+</table>
+<p>A KPA regiment ambushed a US-advised ROKA battalion at Hadong Pass in the southwestern peninsula. The engagement was a near-total annihilation of the UN force, opening the southwestern corridor toward Pusan and threatening the entire Pusan Perimeter from the flank.</p>
+<p class='sig'>Opened western flank of Pusan Perimeter to KPA penetration; one of the worst US ambushes of the war</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>127.737,35.068,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Bowling Alley</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Bowling Alley</h2>
+<table>
+  <tr><td>Date</td><td>1950-08-08 – 1950-08-21</td></tr>
+  <tr><td>Location</td><td>Tabu-dong corridor, North of Taegu, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>27th Infantry Regiment (Wolfhounds), 25th Infantry Division, USA</li><li>23rd Infantry Regiment, 2nd Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>13th Infantry Division, KPA</li><li>105th Armored Division (elements), KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~300 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded, 12 tanks destroyed</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>Named for the thunderous sound of KPA tank rounds ricocheting down the narrow valley road north of Taegu, this two-week battle saw the 27th Infantry Regiment hold the critical highway against repeated night attacks by KPA armor and infantry. US artillery and air support proved decisive in halting the KPA drive on Taegu.</p>
+<p class='sig'>Halted KPA drive on Taegu; one of the key engagements holding the Pusan Perimeter</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>128.5,36.3,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Obong-ni Ridge</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Obong-ni Ridge</h2>
+<table>
+  <tr><td>Date</td><td>1950-08-17 – 1950-08-19</td></tr>
+  <tr><td>Location</td><td>Naktong River, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Provisional Marine Brigade (5th Marine Regiment)</li><li>9th Infantry Regiment, 2nd Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>4th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~340 killed or wounded (Marines and Army combined)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~4,000 killed or wounded; division combat effectiveness destroyed</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory</td></tr>
+</table>
+<p>The 1st Provisional Marine Brigade led the US Army's First Battle of the Naktong Bulge, attacking and seizing Obong-ni Ridge from the KPA 4th Division which had crossed the Naktong River. Combined Marine infantry and close air support drove the KPA back across the river in a textbook combined-arms assault.</p>
+<p class='sig'>Restored Naktong River line; demonstrated Marine air-ground team effectiveness</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>128.5,35.6,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Naktong Bulge (Second)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Naktong Bulge (Second)</h2>
+<table>
+  <tr><td>Date</td><td>1950-09-01 – 1950-09-05</td></tr>
+  <tr><td>Location</td><td>Naktong River Bulge, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>2nd Infantry Division, USA</li><li>1st Provisional Marine Brigade (5th Marine Regiment)</li><li>72nd Tank Battalion, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>2nd, 4th, and 9th Divisions, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~600 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~5,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>The KPA launched its final major offensive to break through the Naktong River line before UN reinforcements could consolidate the Pusan Perimeter. The 2nd Infantry Division and 1st Marine Brigade stopped the assault after several days of intense fighting, repelling the KPA's last attempt to seize Pusan before the Inchon landing.</p>
+<p class='sig'>Last major KPA offensive; destroyed much of KPA combat power before the Inchon landing</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>128.417,35.733,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Defense of Taegu</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Defense of Taegu</h2>
+<table>
+  <tr><td>Date</td><td>1950-08-05 – 1950-09-14</td></tr>
+  <tr><td>Location</td><td>Taegu (Daegu), South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Cavalry Division, USA</li><li>ROK 1st Division</li><li>27th British Infantry Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>1st, 3rd, and 13th Divisions, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~3,000 killed or wounded across all units</td></tr>
+  <tr><td>Enemy Casualties</td><td>~8,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>Taegu served as the temporary capital of South Korea and the headquarters of the Eighth Army. Throughout August and into September 1950, the city was under near-constant threat from the north and northwest as the KPA pressed the Pusan Perimeter. Multiple UN divisions rotated through its defense until the breakout following Inchon.</p>
+<p class='sig'>Holding Taegu was essential to maintaining the Pusan Perimeter; its fall would have meant evacuation</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>128.592,35.87,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pohang</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pohang</h2>
+<table>
+  <tr><td>Date</td><td>1950-08-10 – 1950-09-10</td></tr>
+  <tr><td>Location</td><td>Pohang, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK 3rd Division</li><li>ROK Capital Division (elements)</li><li>UN naval gunfire support vessels</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>5th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,200 ROK killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>The eastern flank of the Pusan Perimeter was contested at Pohang, a coastal city critical as a supply port. ROKA units fought off the KPA 5th Division and guerrilla infiltrators throughout August and September. The city changed hands briefly before UN forces stabilized the eastern perimeter.</p>
+<p class='sig'>Secured eastern flank of Pusan Perimeter; Pohang port remained available for UN supply</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>129.365,36.032,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Masan</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Masan</h2>
+<table>
+  <tr><td>Date</td><td>1950-08-01 – 1950-09-14</td></tr>
+  <tr><td>Location</td><td>Masan, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>25th Infantry Division, USA (Task Force Kean)</li><li>5th Regimental Combat Team, USA</li><li>1st Provisional Marine Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>6th Infantry Division, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~900 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>The southwestern corner of the Pusan Perimeter was defended at Masan by Task Force Kean, the first US offensive operation of the war, which achieved limited gains before being halted. The 25th Infantry Division subsequently held Masan against KPA 6th Division attacks, anchoring the southern end of the perimeter.</p>
+<p class='sig'>Anchored southern end of Pusan Perimeter; Task Force Kean was first US offensive of the war</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>128.572,35.145,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Ch'ongch'on River (First)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Ch'ongch'on River (First)</h2>
+<table>
+  <tr><td>Date</td><td>1950-07-22 – 1950-07-24</td></tr>
+  <tr><td>Location</td><td>Ch'ongch'on River valley, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK 1st and 2nd Divisions</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>2nd and 3rd Divisions, KPA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~800 ROK killed, wounded, or captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~400 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>KPA victory</td></tr>
+</table>
+<p>In late July, ROKA units attempted to establish a defensive line along the Ch'ongch'on River in the central peninsula. The KPA rapidly enveloped these positions and forced a further retreat southward. This engagement is often grouped with the overall UN collapse toward the Pusan Perimeter.</p>
+<p class='sig'>KPA crossed Ch'ongch'on River, accelerating UN retreat toward Pusan</p>
+]]></description>
+      <styleUrl>#phase1</styleUrl>
+      <Point>
+        <coordinates>125.85,39.6,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Phase 2: UN Counter-Offensive (Sep-Oct 1950)</name>
+    <visibility>1</visibility>
+    <Placemark>
+      <name>Inchon Landing (Operation Chromite)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Inchon Landing (Operation Chromite)</h2>
+<table>
+  <tr><td>Date</td><td>1950-09-15 – 1950-09-16</td></tr>
+  <tr><td>Location</td><td>Inchon, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>X Corps (1st Marine Division, 7th Infantry Division, USA)</li><li>ROK 1st Marine Regiment</li><li>US Navy Task Force 90</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>226th Independent Marine Regiment, KPA</li><li>Seoul garrison forces</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~536 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,350 killed or captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN decisive victory</td></tr>
+</table>
+<p>General Douglas MacArthur's audacious amphibious assault at Inchon exploited extreme tidal ranges and an undefended harbor to land the X Corps deep behind KPA lines. Despite tides of up to 32 feet limiting the assault window, 1st Marine Division secured Inchon within 24 hours, cutting KPA supply lines to the south and threatening to trap the entire invasion force.</p>
+<p class='sig'>Strategic masterstroke that reversed the war; KPA supply lines cut, 100,000 KPA troops trapped south</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>126.705,37.456,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Waegwan</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Waegwan</h2>
+<table>
+  <tr><td>Date</td><td>1950-09-16 – 1950-09-22</td></tr>
+  <tr><td>Location</td><td>Waegwan, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Cavalry Division, USA</li><li>ROK 1st Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>3rd Infantry Division, KPA (remnants)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~400 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed, wounded, or captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory</td></tr>
+</table>
+<p>As the Inchon landing cut KPA supply lines, Eighth Army launched the breakout from the Pusan Perimeter. The 1st Cavalry Division attacked northward through Waegwan, site of the infamous No Gun Ri incident weeks earlier, driving a dazed and retreating KPA from the Naktong River crossings and beginning the pursuit north.</p>
+<p class='sig'>Triggered the breakout from the Pusan Perimeter; KPA disintegration began</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>128.394,35.981,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Liberation of Seoul</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Liberation of Seoul</h2>
+<table>
+  <tr><td>Date</td><td>1950-09-16 – 1950-09-28</td></tr>
+  <tr><td>Location</td><td>Seoul, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Marine Division (5th and 7th Marine Regiments)</li><li>7th Infantry Division, USA</li><li>ROK 1st Marine Regiment</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>18th, 25th, and 78th Independent Regiments, KPA</li><li>Seoul garrison</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~3,800 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~5,000 killed or wounded, 7,000 captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; Seoul liberated</td></tr>
+</table>
+<p>Following the Inchon landing, the 1st Marine Division and 7th Infantry Division converged on Seoul from the west and south. Fierce street fighting lasted twelve days as KPA defenders fought from fortified positions throughout the city. MacArthur declared the city liberated on September 28, though fighting continued for several more days.</p>
+<p class='sig'>Recapture of South Korean capital; MacArthur's press conference with Rhee marked political milestone</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>126.978,37.566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Recapture of Taejon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Recapture of Taejon</h2>
+<table>
+  <tr><td>Date</td><td>1950-09-28</td></tr>
+  <tr><td>Location</td><td>Taejon, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>7th Cavalry Regiment, 1st Cavalry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA rear-guard elements</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>Minimal</td></tr>
+  <tr><td>Enemy Casualties</td><td>~100 killed or captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory</td></tr>
+</table>
+<p>As Eighth Army raced north following the Inchon-Seoul operation, the 7th Cavalry Regiment retook Taejon, the site of the 24th Division's disastrous defeat in July. The KPA garrison had already begun to withdraw, and the city fell with minimal resistance, in stark contrast to the fierce fighting ten weeks earlier.</p>
+<p class='sig'>Symbolic recapture; marked complete reversal from July's disaster; Eighth Army pursuit now in full swing</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>127.427,36.321,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>UN Crossing of the 38th Parallel</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>UN Crossing of the 38th Parallel</h2>
+<table>
+  <tr><td>Date</td><td>1950-10-01 – 1950-10-09</td></tr>
+  <tr><td>Location</td><td>38th Parallel, Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK I Corps (3rd and Capital Divisions)</li><li>US Eighth Army (I and IX Corps)</li><li>ROK II Corps</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA remnants; estimated 25,000–30,000 effective troops remaining</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>Minimal during crossing</td></tr>
+  <tr><td>Enemy Casualties</td><td>~500 killed or captured at border crossings</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN advance into North Korea</td></tr>
+</table>
+<p>ROKA units crossed the 38th Parallel on October 1 in pursuit of the retreating KPA, followed by US Eighth Army forces on October 9 after UN authorization. The decision to cross into North Korea to reunify the peninsula proved to be one of the most consequential strategic choices of the war, leading directly to Chinese intervention.</p>
+<p class='sig'>Crossing the 38th Parallel transformed the war's objective from restoring the status quo to Korean reunification; directly triggered Chinese intervention</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>127.5,38.0,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pyongyang</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pyongyang</h2>
+<table>
+  <tr><td>Date</td><td>1950-10-17 – 1950-10-19</td></tr>
+  <tr><td>Location</td><td>Pyongyang, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Cavalry Division, USA</li><li>ROK 1st Division</li><li>British 27th Infantry Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA rear guard and government protection units</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~200 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~800 killed or captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; North Korean capital captured</td></tr>
+</table>
+<p>The 1st Cavalry Division and ROK 1st Division raced to capture Pyongyang, the North Korean capital. The city fell on October 19 with limited resistance as KPA forces had largely abandoned it. MacArthur flew in to inspect the fallen capital, and UN forces prepared to push to the Yalu River.</p>
+<p class='sig'>First enemy capital taken in combat by US forces since Tokyo in 1945; UN forces now approaching Yalu River</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>125.738,39.019,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Unsan</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Unsan</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-01 – 1950-11-02</td></tr>
+  <tr><td>Location</td><td>Unsan, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>8th Cavalry Regiment, 1st Cavalry Division, USA</li><li>ROK 1st Division (15th Regiment)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>39th Army, Chinese People's Volunteer Army (PVA)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~600 killed, wounded, or captured; 3rd Battalion, 8th Cavalry virtually destroyed</td></tr>
+  <tr><td>Enemy Casualties</td><td>~400 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Chinese/KPA victory</td></tr>
+</table>
+<p>The first major engagement between US and Chinese People's Volunteer Army forces. The PVA 39th Army struck the 8th Cavalry Regiment and ROK 1st Division at night, overrunning positions and inflicting severe casualties. US commanders initially dismissed the action as involving only Korean soldiers in Chinese uniforms, fatally underestimating the Chinese intervention.</p>
+<p class='sig'>First major US-China engagement; presaged the catastrophe of late November; 3rd Battalion 8th Cavalry among worst defeats of the war</p>
+]]></description>
+      <styleUrl>#phase2</styleUrl>
+      <Point>
+        <coordinates>125.773,39.993,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Phase 3: Chinese Intervention (Oct 1950-Jan 1951)</name>
+    <visibility>1</visibility>
+    <Placemark>
+      <name>Battle of Chosin Reservoir</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Chosin Reservoir</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-12-13</td></tr>
+  <tr><td>Location</td><td>Chosin Reservoir, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Marine Division, USA (1st, 5th, 7th Marine Regiments)</li><li>31st Regimental Combat Team, 7th Infantry Division, USA (Task Force Faith)</li><li>41 Commando, Royal Marines</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>9th Army Group, PVA (20th, 26th, and 27th Armies — 12 divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~10,495 battle casualties; ~7,338 non-battle casualties (frostbite); ~2,500 killed</td></tr>
+  <tr><td>Enemy Casualties</td><td>~37,500–40,000 killed, wounded, or missing; 7 PVA divisions combat-ineffective</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN breakout; tactical UN victory despite strategic withdrawal</td></tr>
+</table>
+<p>Seventeen days in temperatures reaching -40°F, the 1st Marine Division and attached Army and British Royal Marine elements fought their way out of encirclement by 12 PVA divisions in one of the most storied retreats in military history. General Oliver Smith famously declared they were not retreating but 'attacking in a different direction.' The Marines suffered severely but extricated themselves intact, destroying seven PVA divisions in the process.</p>
+<p class='sig'>Epic of American military history; destroyed PVA 9th Army Group; 105,000 civilians evacuated with the Marines to Hungnam</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.3,40.6,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chinese First Phase Offensive — Battle of Onjong</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Chinese First Phase Offensive — Battle of Onjong</h2>
+<table>
+  <tr><td>Date</td><td>1950-10-25 – 1950-11-06</td></tr>
+  <tr><td>Location</td><td>Onjong area, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK II Corps (6th, 7th, and 8th Divisions)</li><li>ROK 1st Division (elements, Unsan axis)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 40th Army</li><li>PVA 39th Army (Unsan axis)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~7,000 ROK killed, wounded, or captured; ROK II Corps combat effectiveness severely degraded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA tactical victory; deliberate PVA withdrawal preserved operational surprise</td></tr>
+</table>
+<p>The PVA 40th Army struck ROK II Corps along the Onjong-Unsan axis on October 25, opening the First Phase Offensive and marking China's large-scale entry into the war. The ROK 6th Division collapsed almost immediately; the ROK 8th Division was badly mauled. Eighth Army's intelligence officers initially discounted the scope of the attack. After inflicting maximum damage, the PVA broke contact on November 6, leading MacArthur's command to conclude the Chinese had limited objectives — a catastrophic misreading that set the stage for the Second Phase Offensive three weeks later.</p>
+<p class='sig'>Opening blow of Chinese intervention; the PVA's deliberate disengagement after the 1st Phase Offensive convinced MacArthur's G-2 (Willoughby) that Chinese commitment was limited — the intelligence failure that made November's catastrophe possible; see Appleman, Disaster in Korea</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>126.5,40.5,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Collapse of ROK II Corps at Tokchon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Collapse of ROK II Corps at Tokchon</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-25 – 1950-11-27</td></tr>
+  <tr><td>Location</td><td>Tokchon, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK II Corps (7th and 8th Divisions)</li><li>ROK 1st Division (far right flank)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th Army (112th, 113th, and 114th Divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~8,000 ROK killed, wounded, or captured; ROK II Corps ceased to function as a fighting formation</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA decisive breakthrough; ROK II Corps disintegrated</td></tr>
+</table>
+<p>At 22:30 on November 25 — as MacArthur's 'end-the-war' offensive was barely 24 hours old — the PVA 38th Army struck the ROK II Corps right flank at Tokchon. The ROK 7th and 8th Divisions disintegrated, opening a 30-mile gap between US IX Corps and the eastern anchor of Eighth Army. PVA columns poured through the breach, curling behind the 2nd Infantry Division toward the Kunu-ri road junction. Appleman identifies the Tokchon breakthrough as the single tactical event that made the Ch'ongch'on disaster inevitable; without this flank collapse, the PVA envelopment could not have closed behind the US divisions.</p>
+<p class='sig'>The operational hinge of the Ch'ongch'on disaster; Appleman, Disaster in Korea, treats the Tokchon breakthrough as the event that rendered the 2nd Infantry Division's position untenable before that division had fired a shot in its own defense</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>126.3,39.75,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Turkish Brigade at Wawon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Turkish Brigade at Wawon</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-11-29</td></tr>
+  <tr><td>Location</td><td>Wawon, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>Turkish Brigade (Brig. Gen. Tahsin Yazici), attached US IX Corps</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 113th Division, 38th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~900 Turkish killed, wounded, or captured; figures uncertain due to post-battle reporting gaps</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Turkish withdrawal to Kunu-ri; PVA retained blocking position on Kunu-ri road</td></tr>
+</table>
+<p>Committed to counterattack and plug the Tokchon gap, the Turkish Brigade advanced northeast from Kunu-ri toward Wawon on November 27. The Turks struck PVA columns moving south through the breach, fighting fierce close-range engagements but becoming partially encircled and suffering heavy casualties. After two days, remnants withdrew to Kunu-ri. The Turkish action absorbed PVA 113th Division strength for roughly 48 hours and partially delayed its move to establish the Kunu-ri road block — time that allowed some IX Corps units to begin their withdrawal. Post-action reporting was complicated by language barriers between Turkish and US staffs, leaving exact casualties and unit boundaries disputed in the record.</p>
+<p class='sig'>Most costly Turkish Brigade engagement of the war; the action's exact sequence remains contested — Appleman's reconstruction in Disaster in Korea is the most careful available and acknowledges the evidentiary limits</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>125.95,39.9,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Yudam-ni</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Yudam-ni</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-12-01</td></tr>
+  <tr><td>Location</td><td>Yudam-ni, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>5th Marine Regiment, 1st Marine Division</li><li>7th Marine Regiment, 1st Marine Division</li><li>3rd Battalion, 11th Marines (artillery)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 59th and 79th Divisions, 20th Army</li><li>PVA 89th Division, 27th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,300 killed or wounded (5th and 7th Marines combined, Yudam-ni perimeter)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~8,000 killed or wounded; PVA 59th Division combat-ineffective</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN breakout; 5th and 7th Marines reached Hagaru-ri with unit cohesion intact</td></tr>
+</table>
+<p>The 5th and 7th Marine Regiments had just begun pushing west from Yudam-ni per X Corps orders toward Mupyong-ni when the PVA struck at 22:00 on November 27. Three PVA divisions encircled Yudam-ni within hours. For five days the Marines held a tight perimeter on the ridges surrounding the village, repulsing massed infantry assaults in temperatures of -20°F to -35°F with weapons that froze between rounds. On December 1, the two regiments executed a fighting breakout southward toward Hagaru-ri, carrying all dead and wounded through 14 miles of PVA blocking positions. The column reached Hagaru-ri on December 3–4.</p>
+<p class='sig'>Core Chosin engagement; two Marine regiments maintained tactical coherence and fought clear of encirclement by three PVA divisions; the discipline of the breakout — carrying all dead and wounded — became the defining image of the Chosin campaign</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.12,40.7,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Toktong Pass (Fox Hill)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Toktong Pass (Fox Hill)</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-12-02</td></tr>
+  <tr><td>Location</td><td>Toktong Pass, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>Fox Company, 2nd Battalion, 7th Marine Regiment, 1st Marine Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 59th Division, 20th Army (elements)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~120 killed or wounded of 235 engaged (51% casualties); all dead and wounded held on position and evacuated</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory; Toktong Pass held throughout duration of Yudam-ni breakout</td></tr>
+</table>
+<p>Fox Company, 2nd Battalion, 7th Marines (235 men, Capt. William Barber) was dug in at the crest of Toktong Pass — the only road between Yudam-ni and Hagaru-ri — when the PVA struck on the night of November 27. Elements of the PVA 59th Division, estimated at battalion to regimental strength per assault, attacked Fox Hill for six consecutive nights. Barber, wounded in the first night's fighting, directed the defense from a stretcher. On December 1, a relief column from Yudam-ni reached the position. Fox Company had held the pass throughout the 5th and 7th Marines' breakout, preventing the PVA from closing the one road the Marines needed. Barber received the Medal of Honor.</p>
+<p class='sig'>One of the most celebrated small-unit stands in Marine Corps history; Capt. Barber MoH; without Fox Hill the 5th and 7th Marines could not have broken out from Yudam-ni</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.18,40.6,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Destruction of Task Force Faith</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Destruction of Task Force Faith</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-12-02</td></tr>
+  <tr><td>Location</td><td>East shore, Chosin Reservoir, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>Task Force Faith: 1st Battalion, 32nd Infantry Regiment, 7th Infantry Division, USA</li><li>3rd Battalion, 31st Infantry Regiment, 7th Infantry Division, USA</li><li>1st Battalion, 57th Field Artillery Battalion, 7th Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 80th and 81st Divisions, 27th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~2,500 killed, wounded, or missing of ~3,200 engaged; 31st RCT destroyed as a fighting unit; LTC Don Faith KIA (MoH posthumous)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA decisive victory; Task Force Faith annihilated</td></tr>
+</table>
+<p>Three Army battalions — 1st Battalion 32nd Infantry, 3rd Battalion 31st Infantry (31st RCT), and 1st Battalion 57th Field Artillery — were deployed on the Chosin Reservoir's east shore when the PVA 27th Army struck at night on November 27. Lacking the 1st Marine Division's tight perimeter and resupply, the 31st RCT was systematically destroyed over five days of attrition under intense cold. LTC Don Faith consolidated the survivors and led a final breakout attempt south along the reservoir's frozen surface on December 1. Faith was killed in the attempt and was posthumously awarded the Medal of Honor. Of roughly 3,200 men, approximately 1,050 reached Hagaru-ri — most were non-ambulatory frostbite casualties. The 31st Infantry regimental combat team ceased to exist as a fighting formation. Appleman's Disaster in Korea provides the definitive reconstruction of Task Force Faith from survivor testimony and unit records.</p>
+<p class='sig'>Worst US Army defeat of the Chosin campaign; the 31st Infantry Regiment lost its colors for the only time in regimental history; Appleman's account remains the primary source and is explicit about the evidence gaps in the final hours</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.42,40.62,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Defense of Hagaru-ri</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Defense of Hagaru-ri</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-27 – 1950-12-06</td></tr>
+  <tr><td>Location</td><td>Hagaru-ri, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>3rd Battalion, 1st Marine Regiment, 1st Marine Division</li><li>41 Commando, Royal Marines</li><li>Headquarters and Service elements, 1st Marine Division</li><li>Task Force Faith survivors (Army)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 58th and 60th Divisions, 20th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,500 killed or wounded defending Hagaru-ri perimeter over ten days</td></tr>
+  <tr><td>Enemy Casualties</td><td>~5,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory; perimeter held; airstrip operational throughout</td></tr>
+</table>
+<p>Hagaru-ri — the 1st Marine Division's forward logistics base and the only serviceable ground at Chosin with a functioning airstrip — was defended by fewer than 2,500 effectives under LTC Thomas Ridge: 3rd Battalion 1st Marines, headquarters troops, engineers, service personnel, and 41 Commando Royal Marines. PVA forces struck from the surrounding ridges nightly; at one point East Hill was overrun and retaken only at severe cost. An improvised airstrip evacuated 4,300 casualties before the breakout. The 5th and 7th Marines from Yudam-ni and survivors of Task Force Faith joined the perimeter December 3–4, reconstituting the division's combat power for the breakout southward.</p>
+<p class='sig'>The logistical lynchpin of the entire Chosin breakout; without the Hagaru-ri airstrip the 4,300 serious casualties could not have been evacuated; loss of the position would have made a fighting breakout with full equipment impossible</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.3,40.53,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Breakout: Hagaru-ri to Koto-ri</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Breakout: Hagaru-ri to Koto-ri</h2>
+<table>
+  <tr><td>Date</td><td>1950-12-06 – 1950-12-07</td></tr>
+  <tr><td>Location</td><td>Hagaru-ri to Koto-ri road, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Marine Division (1st, 5th, 7th Marine Regiments)</li><li>41 Commando, Royal Marines</li><li>7th Infantry Division Army survivors</li><li>11th Marines (artillery)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 20th and 27th Armies (blocking and pursuit forces)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~800 killed or wounded during this breakout leg</td></tr>
+  <tr><td>Enemy Casualties</td><td>~3,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Successful breakout; 1st Marine Division consolidated at Koto-ri</td></tr>
+</table>
+<p>On December 6, the consolidated 1st Marine Division — 5th and 7th Marines from Yudam-ni, 1st Marines from Hagaru-ri, 41 Commando, and Army survivors — broke out southward toward Koto-ri, 11 miles away. The column carried all dead and wounded and fought through PVA positions on multiple ridgelines in darkness and sub-zero cold. The rearguard (3rd Battalion 1st Marines) fought off pursuit while the vanguard (5th Marines) cleared blocking positions. The column reached Koto-ri on December 7 after roughly 18 hours of continuous combat movement.</p>
+<p class='sig'>The movement that consolidated the Yudam-ni, Hagaru-ri, and Task Force Faith survivors into a single force capable of completing the breakout to Hungnam</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.32,40.46,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Funchilin Pass</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Funchilin Pass</h2>
+<table>
+  <tr><td>Date</td><td>1950-12-09 – 1950-12-10</td></tr>
+  <tr><td>Location</td><td>Funchilin Pass, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Marine Regiment (assault and security)</li><li>1st Marine Engineer Battalion</li><li>US Air Force Combat Cargo Command (C-119 treadway airdrop)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 60th Division, 20th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~400 killed or wounded at the pass</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN breakout completed; 1st Marine Division reached coastal plain</td></tr>
+</table>
+<p>The final obstacle in the Chosin breakout was a demolished concrete bridge over a gorge in Funchilin Pass — the only road down from the plateau to the coastal plain. Without crossing the gorge, the entire column was trapped. USAF C-119s airdropped M2 treadway bridge sections on December 7–8; 1st Marine Engineer Battalion assembled a replacement span under fire while infantry held the ridgelines overlooking the pass. The column crossed on December 9–10. The 1st Marine Division entered Hungnam on December 11, completing the breakout. The treadway airdrop is one of the most celebrated logistics feats of the Korean War.</p>
+<p class='sig'>Completion of one of history's most celebrated fighting retreats; the bridge airdrop ensured the column did not have to abandon its vehicles and heavy weapons on the plateau</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.38,40.28,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Ch'ongch'on River (Second)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Ch'ongch'on River (Second)</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-25 – 1950-12-02</td></tr>
+  <tr><td>Location</td><td>Ch'ongch'on River, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>US Eighth Army (I, IX Corps)</li><li>ROK II Corps</li><li>2nd Infantry Division, USA</li><li>Turkish Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>13th Army Group, PVA (38th, 39th, 40th, 42nd Armies)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~11,000 killed, wounded, or captured (including ~5,000 from 2nd Division alone)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~30,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA decisive victory; UN forced into longest retreat in US military history</td></tr>
+</table>
+<p>The PVA's massive surprise offensive struck Eighth Army's extended right flank along the Ch'ongch'on River. The ROK II Corps collapsed, exposing the US IX Corps to envelopment. General Walton Walker ordered a general retreat that did not stop until below the 38th Parallel, the longest retreat in US Army history.</p>
+<p class='sig'>Transformed the war; UN forces retreated 120 miles in two weeks; Wake Island victory mood replaced by potential evacuation</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>125.9,39.8,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Kunu-ri</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Kunu-ri</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-29 – 1950-12-01</td></tr>
+  <tr><td>Location</td><td>Kunu-ri, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>2nd Infantry Division, USA (9th, 23rd, and 38th Infantry Regiments)</li><li>Turkish Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>113th Division, 38th Army, PVA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~4,500 killed, wounded, or captured; 2nd Division lost most of its equipment</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA victory; 2nd Division suffered catastrophic losses</td></tr>
+</table>
+<p>As Eighth Army retreated from the Ch'ongch'on River disaster, the PVA blocked the main withdrawal route at Kunu-ri. The 2nd Infantry Division fought through a six-mile ambush gauntlet under constant fire from both sides of the road, suffering catastrophic losses. The 'gauntlet' became one of the most notorious passages in US Army history.</p>
+<p class='sig'>One of worst defeats in US Army history; 2nd Division required months of rebuilding; precipitated full Eighth Army withdrawal</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>125.765,39.986,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hungnam Evacuation</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Hungnam Evacuation</h2>
+<table>
+  <tr><td>Date</td><td>1950-12-11 – 1950-12-24</td></tr>
+  <tr><td>Location</td><td>Hungnam, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>X Corps (1st Marine Division, 7th and 3rd Infantry Divisions)</li><li>ROK I Corps</li><li>US Navy Task Force 90</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 9th Army Group (depleted)</li><li>KPA units</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>Minimal during embarkation</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 pursuing forces killed by naval gunfire and air strikes</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Successful UN evacuation</td></tr>
+</table>
+<p>X Corps conducted a successful evacuation by sea from Hungnam over two weeks, loading over 100,000 troops, 17,500 vehicles, 350,000 tons of cargo, and 98,000 North Korean civilian refugees onto 193 ships. The final evacuation on Christmas Eve included the demolition of port facilities. The SS Meredith Victory carried 14,000 refugees in a single voyage.</p>
+<p class='sig'>Largest amphibious evacuation since Dunkirk; 98,000 civilian refugees brought to safety; port demolished to deny PVA use</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.613,39.826,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Imjin River (First Crossing)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Imjin River (First Crossing)</h2>
+<table>
+  <tr><td>Date</td><td>1951-01-03 – 1951-01-04</td></tr>
+  <tr><td>Location</td><td>Imjin River, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK 1st Division</li><li>US I Corps (elements)</li><li>29th British Infantry Brigade</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>38th and 39th Armies, PVA</li><li>KPA I Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~500 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA/KPA advance; Imjin River line lost</td></tr>
+</table>
+<p>PVA and KPA forces crossed the frozen Imjin River in the Third Phase Offensive, brushing aside UN delaying forces. The loss of the Imjin River line opened the road to Seoul for the third time in the war. UN forces conducted an ordered withdrawal rather than risk encirclement.</p>
+<p class='sig'>Opened road to Seoul for third time; UN abandoned capital for second time without a fight</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>126.668,37.983,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Third Battle of Seoul</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Third Battle of Seoul</h2>
+<table>
+  <tr><td>Date</td><td>1951-01-03 – 1951-01-07</td></tr>
+  <tr><td>Location</td><td>Seoul, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>US I Corps (3rd Infantry Division, 25th Infantry Division elements)</li><li>ROK 1st Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th Army</li><li>KPA I Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~300 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA/KPA capture of Seoul</td></tr>
+</table>
+<p>UN forces abandoned Seoul for the second time as PVA and KPA forces advanced in the Third Phase Offensive. General Matthew Ridgway, who had just taken command of Eighth Army, ordered an orderly withdrawal rather than a disorganized rout. The city fell with minimal combat as UN forces traded space for time.</p>
+<p class='sig'>Seoul changed hands for third time; Ridgway's disciplined withdrawal preserved Eighth Army for counteroffensive</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>126.978,37.566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Wonju</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Wonju</h2>
+<table>
+  <tr><td>Date</td><td>1951-01-07 – 1951-01-22</td></tr>
+  <tr><td>Location</td><td>Wonju, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>X Corps (2nd Infantry Division, 7th Infantry Division elements, USA)</li><li>ROK 8th Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 42nd Army</li><li>KPA II Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~3,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>Wonju, the key road hub in central South Korea, changed hands multiple times in late January 1951. US X Corps troops, led by General Edward Almond, fought to hold the town against PVA and KPA attacks. The battle's conclusion left Wonju in UN hands and began to blunt the Chinese winter offensive.</p>
+<p class='sig'>Held key road junction in central Korea; helped stabilize Line D south of Seoul</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.945,37.342,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Chipyong-ni</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Chipyong-ni</h2>
+<table>
+  <tr><td>Date</td><td>1951-02-13 – 1951-02-15</td></tr>
+  <tr><td>Location</td><td>Chipyong-ni, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>23rd Infantry Regiment, 2nd Infantry Division, USA</li><li>French Battalion (UN)</li><li>37th Field Artillery Battalion</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>39th and 40th Armies, PVA (5 divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~400 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~5,000 killed or wounded; first major Chinese tactical defeat</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN decisive victory</td></tr>
+</table>
+<p>Described as the 'Gettysburg of the Korean War,' the 23rd Infantry Regiment and French Battalion held a 360-degree perimeter for two days against five PVA divisions. General Ridgway refused to allow withdrawal, and a relief column broke through to the surrounded force. The battle marked the first decisive defeat of a major Chinese attack and the turning point of the war.</p>
+<p class='sig'>Turning point of the war; first time PVA mass infantry tactics were decisively defeated; boosted Eighth Army morale</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.633,37.45,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Phase 4: Stalemate (Jan 1951-Jul 1953)</name>
+    <visibility>1</visibility>
+    <Placemark>
+      <name>Operation Thunderbolt</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Operation Thunderbolt</h2>
+<table>
+  <tr><td>Date</td><td>1951-01-25 – 1951-02-10</td></tr>
+  <tr><td>Location</td><td>Central Korea, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>I Corps (25th Infantry Division, 3rd Infantry Division, USA)</li><li>IX Corps (1st Cavalry Division, 24th Infantry Division, USA)</li><li>ROK 1st Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th and 50th Armies</li><li>KPA I Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,800 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~8,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; advance to Han River</td></tr>
+</table>
+<p>General Ridgway's first major counteroffensive, Operation Thunderbolt sent Eighth Army's I and IX Corps northward in a coordinated advance designed to attrit Chinese forces through firepower rather than seize terrain. The methodical advance restored UN confidence and drove PVA forces from favorable positions south of Han River.</p>
+<p class='sig'>Restored Eighth Army offensive spirit; Ridgway's 'meatgrinder' strategy of attrition began here</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.3,37.1,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fourth Battle of Seoul</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Fourth Battle of Seoul</h2>
+<table>
+  <tr><td>Date</td><td>1951-03-07 – 1951-03-15</td></tr>
+  <tr><td>Location</td><td>Seoul, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>I Corps (25th Infantry Division, 3rd Infantry Division, USA)</li><li>IX Corps (1st Cavalry Division, USA)</li><li>ROK 1st Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th and 39th Armies (rear guard)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~800 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~4,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; Seoul recaptured for the last time</td></tr>
+</table>
+<p>Operation Ripper, Ridgway's second major counteroffensive, cleared PVA forces from the Han River crossings and recaptured Seoul for the fourth and final time. Unlike previous captures, the city was seized in a methodical advance that avoided the costly street fighting of September 1950, with PVA forces withdrawing rather than defending the ruined capital.</p>
+<p class='sig'>Seoul changed hands for the fourth and final time; capital remained in ROK hands for remainder of war</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.978,37.566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Operation Killer</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Operation Killer</h2>
+<table>
+  <tr><td>Date</td><td>1951-02-20 – 1951-03-06</td></tr>
+  <tr><td>Location</td><td>Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>X Corps (2nd Infantry Division, 7th Infantry Division, USA)</li><li>IX Corps (1st Cavalry Division, USA)</li><li>ROK III Corps</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 42nd Army</li><li>KPA II and V Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,500 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~10,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN advance; PVA forces pushed north of Han River</td></tr>
+</table>
+<p>Operation Killer was Ridgway's frankly-named offensive aimed at killing as many PVA and KPA troops as possible rather than seizing terrain objectives. The X Corps and IX Corps advanced methodically across the central Korean mountains, using artillery and air power to attrit Chinese units. The operation set the template for the stalemate's attritional warfare.</p>
+<p class='sig'>Ridgway's controversial name reflected his attritional philosophy; proved UN could advance despite Chinese numbers</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.8,37.3,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Munsan-ni</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Munsan-ni</h2>
+<table>
+  <tr><td>Date</td><td>1951-03-23 – 1951-03-25</td></tr>
+  <tr><td>Location</td><td>Munsan-ni, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>187th Airborne Regimental Combat Team, USA</li><li>I Corps ground elements</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA I Corps (elements)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~273 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,200 killed or captured</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN limited success</td></tr>
+</table>
+<p>Operation Tomahawk was the war's only US combat parachute jump, with the 187th Airborne Regimental Combat Team dropping at Munsan-ni to cut off retreating KPA forces while ground elements attacked northward. Although the trap did not fully close, the operation demonstrated US airborne capabilities and helped drive KPA forces back toward the 38th Parallel.</p>
+<p class='sig'>Only US combat parachute assault of the Korean War; 187th ARCT's second drop of the war</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.788,37.858,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Yultong</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Yultong</h2>
+<table>
+  <tr><td>Date</td><td>1951-04-22 – 1951-04-23</td></tr>
+  <tr><td>Location</td><td>Yultong, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>Belgian-Luxembourg Battalion (3rd Infantry Division, USA attachment)</li><li>65th Infantry Regiment, 3rd Infantry Division, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>188th Division, 63rd Army, PVA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~100 killed or wounded (Belgian-Luxembourg Battalion)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~800 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive success</td></tr>
+</table>
+<p>During the PVA Spring Offensive, the Belgian and Luxembourg Battalion (part of 3rd Infantry Division) held a critical river crossing at Yultong against an entire PVA regiment. Outnumbered 10-to-1, the small UN contingent repulsed repeated assaults and enabled other units to withdraw in order, earning high decorations from multiple nations.</p>
+<p class='sig'>Exceptional small-unit stand; exemplified UN coalition fighting; Belgian unit received US Presidential Unit Citation</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.95,37.96,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Imjin River (Gloucester Hill)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Imjin River (Gloucester Hill)</h2>
+<table>
+  <tr><td>Date</td><td>1951-04-22 – 1951-04-25</td></tr>
+  <tr><td>Location</td><td>Imjin River / Gloucester Hill, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Battalion, Gloucestershire Regiment (29th British Infantry Brigade)</li><li>8th King's Royal Irish Hussars (tanks)</li><li>Philippine 10th Battalion Combat Team (elements)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>63rd Army, PVA (3 divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,091 British killed, wounded, or captured; Gloucesters virtually destroyed as a fighting unit</td></tr>
+  <tr><td>Enemy Casualties</td><td>~10,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA tactical victory; strategic delay for UN</td></tr>
+</table>
+<p>During the PVA April Spring Offensive, the 1st Battalion, Gloucestershire Regiment held 'Gloucester Hill' against the full weight of the PVA 63rd Army for three days. Surrounded and cut off, the 'Glosters' fought until ammunition was exhausted. Only 39 men escaped; 524 were killed, wounded, or captured. The stand delayed the Chinese advance on Seoul by three crucial days.</p>
+<p class='sig'>One of greatest acts of heroism in British military history; the Glosters' stand bought time for Seoul's defenses; George Cross awarded to regiment</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.668,37.983,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Kapyong</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Kapyong</h2>
+<table>
+  <tr><td>Date</td><td>1951-04-22 – 1951-04-25</td></tr>
+  <tr><td>Location</td><td>Kapyong Valley, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>2nd Battalion, Princess Patricia's Canadian Light Infantry (PPCLI)</li><li>3rd Battalion, Royal Australian Regiment (RAR)</li><li>New Zealand 16th Field Regiment (artillery)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>118th Division, 40th Army, PVA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~300 killed or wounded (combined Australian and Canadian)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>Simultaneously with the Gloucester Hill battle, the 2nd Battalion Princess Patricia's Canadian Light Infantry and 3rd Battalion Royal Australian Regiment defended the Kapyong Valley against the PVA 118th Division. The two Commonwealth battalions held their hilltop positions through the night, at one point calling in artillery on their own positions, stopping the Chinese advance in the central corridor.</p>
+<p class='sig'>Australian and Canadian units received US Presidential Unit Citation; halted Chinese breakthrough in central sector</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.583,37.75,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chinese Spring Offensive (Fifth Phase Offensive)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Chinese Spring Offensive (Fifth Phase Offensive)</h2>
+<table>
+  <tr><td>Date</td><td>1951-04-22 – 1951-05-22</td></tr>
+  <tr><td>Location</td><td>Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>US Eighth Army (I, IX, X Corps)</li><li>ROK I, II, and III Corps</li><li>Commonwealth Brigade</li><li>Multiple UN national contingents</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 3rd Army Group (700,000 troops in 3 field armies)</li><li>KPA I, II, III, V Corps</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~10,000 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~70,000–75,000 killed or wounded; PVA offensive capacity severely degraded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory; PVA offensive halted</td></tr>
+</table>
+<p>The PVA's largest offensive of the war, committing 700,000 troops in two phases across the entire front. The First Impulse (April 22–30) achieved breakthroughs but was halted by determined resistance at Kapyong and along the Imjin. The Second Impulse (May 16–22) struck the eastern sector and was decisively defeated by UN artillery and airpower, after which the front stabilized near the 38th Parallel.</p>
+<p class='sig'>Last major Chinese offensive; failure ended Chinese hopes of military victory; opened door to armistice negotiations</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.5,38.0,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Operation Commando</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Operation Commando</h2>
+<table>
+  <tr><td>Date</td><td>1951-10-03 – 1951-10-20</td></tr>
+  <tr><td>Location</td><td>Wyoming Line, Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>I Corps (1st Cavalry Division, 3rd Infantry Division, USA)</li><li>1st Commonwealth Division (British, Canadian, Australian, New Zealand)</li><li>ROK 1st Division</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 64th Army</li><li>KPA I Corps (elements)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~6,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; Wyoming Line secured</td></tr>
+</table>
+<p>UN forces advanced to the 'Wyoming Line' in Operation Commando, securing key terrain north of the 38th Parallel in the I Corps sector. The Commonwealth Division and US 1st Cavalry Division seized hills dominating the Imjin River valley, establishing the general outpost line that would be defended until the armistice.</p>
+<p class='sig'>Established the general battle line that remained relatively static until armistice; last major UN advance</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.2,38.1,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Bloody Ridge</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Bloody Ridge</h2>
+<table>
+  <tr><td>Date</td><td>1951-08-18 – 1951-09-05</td></tr>
+  <tr><td>Location</td><td>Bloody Ridge (Hill 983), Yanggu County, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>9th and 38th Infantry Regiments, 2nd Infantry Division, USA</li><li>ROK 36th Regiment</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA 12th Division</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~2,700 killed or wounded (US and ROK combined)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~15,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN victory; ridge captured</td></tr>
+</table>
+<p>The 2nd Infantry Division attacked a fortified ridgeline in the Punchbowl sector. In 18 days of brutal uphill fighting against deeply entrenched KPA positions, the ridge changed hands repeatedly. The cost — the ridge earned its name from the blood of both sides — led directly to the subsequent assault on neighboring Heartbreak Ridge.</p>
+<p class='sig'>Epitomized the brutal stalemate-era hillfighting; name 'Bloody Ridge' became iconic; led to equally costly Heartbreak Ridge assault</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.45,38.216,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Heartbreak Ridge</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Heartbreak Ridge</h2>
+<table>
+  <tr><td>Date</td><td>1951-08-25 – 1951-10-15</td></tr>
+  <tr><td>Location</td><td>Heartbreak Ridge (Hill 931), Yanggu County, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>23rd Infantry Regiment, 2nd Infantry Division, USA</li><li>French Battalion (UN)</li><li>72nd Tank Battalion (support)</li><li>ROK 9th Division (elements)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>KPA 6th Division (with rotation of regiments throughout battle)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~3,700 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~25,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN tactical victory after 37 days; strategic value questioned</td></tr>
+</table>
+<p>One of the most costly UN operations of the stalemate period, the battle for Heartbreak Ridge lasted 37 days. The 2nd Infantry Division and ROK 9th Division attacked the ridgeline 12 times before finally holding it. The French Battalion fought alongside US units. The battle became synonymous with the futility of limited-objective stalemate warfare.</p>
+<p class='sig'>Symbol of stalemate futility; armistice talks were ongoing simultaneously; correspondent coined the name from observing the human cost</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.49,38.22,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Old Baldy</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Old Baldy</h2>
+<table>
+  <tr><td>Date</td><td>1952-06-26 – 1952-07-04</td></tr>
+  <tr><td>Location</td><td>Old Baldy (Hill 266), West-Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>17th and 32nd Infantry Regiments, 7th Infantry Division, USA</li><li>Colombian Battalion (UN)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,500 killed or wounded across multiple engagements</td></tr>
+  <tr><td>Enemy Casualties</td><td>~6,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Contested; hill changed hands multiple times</td></tr>
+</table>
+<p>Hill 266, nicknamed 'Old Baldy' for its treeless summit, was one of the most contested terrain features of the stalemate. The 7th Infantry Division's 17th and 32nd Regiments fought for the hill in a series of engagements through 1952 and into 1953. The hill changed hands many times and ultimately was ceded to Chinese forces at the armistice.</p>
+<p class='sig'>Exemplified attritional outpost warfare; Colombian Battalion's most prominent action of the war</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.1,38.1,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of White Horse</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of White Horse</h2>
+<table>
+  <tr><td>Date</td><td>1952-10-06 – 1952-10-15</td></tr>
+  <tr><td>Location</td><td>White Horse Hill (Hill 395), West Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK 9th Division (28th, 29th, and 30th Regiments)</li><li>US artillery support</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 38th Army (113th and 114th Divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~3,500 ROK killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~14,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>ROK victory; Hill 395 retained</td></tr>
+</table>
+<p>In one of the most intense battles of the stalemate period, the ROK 9th Division defeated the PVA 38th Army's assault on Hill 395, named 'White Horse' for its distinctive shape. The hill changed hands 24 times in 10 days of vicious fighting. The ROK defensive victory was a significant demonstration of South Korean military capability.</p>
+<p class='sig'>Major ROK victory; demonstrated ROKA growing combat effectiveness; PVA 38th Army shattered as effective force</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.283,38.161,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Bunker Hill</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Bunker Hill</h2>
+<table>
+  <tr><td>Date</td><td>1952-08-12 – 1952-10-13</td></tr>
+  <tr><td>Location</td><td>Bunker Hill, Imjin River Sector, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Marine Division (various regiments rotated)</li><li>1st Korean Marine Corps Regiment</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 63rd Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,700 killed or wounded (Marines)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~5,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>US Marine defensive victory</td></tr>
+</table>
+<p>A series of engagements over two months for control of Bunker Hill and adjacent outposts in the 1st Marine Division sector. Marine rifle companies rotated through the defense as PVA forces repeatedly attacked the exposed outpost line. The fighting exemplified the costly attritional character of the final year of the war.</p>
+<p class='sig'>One of the fiercest Marine battles of the stalemate; Marine outpost doctrine refined under fire</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.668,37.983,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Triangle Hill</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Triangle Hill</h2>
+<table>
+  <tr><td>Date</td><td>1952-10-14 – 1952-11-25</td></tr>
+  <tr><td>Location</td><td>Triangle Hill (Hill 598), Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>31st and 32nd Infantry Regiments, 7th Infantry Division, USA</li><li>ROK 2nd Division (relieved 7th Division)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>15th Army, PVA (44th and 45th Divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~9,000 US and ROK killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~19,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA defensive victory; US withdrew from assault</td></tr>
+</table>
+<p>Operation Showdown, the US 7th Division's assault on Triangle Hill (Hill 598), became the bloodiest engagement of 1952. China committed the 15th Army to defend the position, and after 42 days of fighting the US abandoned the assault, handing the PVA a defensive victory. The battle convinced US commanders that assaulting fortified ridgelines was too costly.</p>
+<p class='sig'>Last major US offensive of the war; ended US attempts to seize major terrain objectives; Triangle Hill remained PVA-held</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.433,38.233,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Carson-Vegas-Reno</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Carson-Vegas-Reno</h2>
+<table>
+  <tr><td>Date</td><td>1953-03-23 – 1953-07-16</td></tr>
+  <tr><td>Location</td><td>Outpost Carson, Vegas, and Reno, West Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>5th and 7th Marine Regiments, 1st Marine Division</li><li>1st Korean Marine Corps Regiment</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 46th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,015 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~7,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Mixed; Vegas held, Reno and Carson abandoned</td></tr>
+</table>
+<p>A series of engagements for three outposts in the 7th Marines / 5th Marine sector. The most intense fighting occurred in late March 1953 when the PVA overran Outpost Reno and Vegas repeatedly. The Marines and ROK Marine Corps fought to retake the positions. Vegas was held after brutal close combat; Reno and Carson were eventually abandoned.</p>
+<p class='sig'>Final major Marine engagements of the war; typified the brutal outpost fighting of 1953</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.15,38.18,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pork Chop Hill (First)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pork Chop Hill (First)</h2>
+<table>
+  <tr><td>Date</td><td>1953-03-23 – 1953-07-16</td></tr>
+  <tr><td>Location</td><td>Pork Chop Hill (Hill 255), West Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>31st Infantry Regiment, 7th Infantry Division, USA</li><li>17th Infantry Regiment (relief)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>141st Division, PVA 47th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,000 killed or wounded (April action)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive success (April)</td></tr>
+</table>
+<p>A series of engagements for Outpost Pork Chop between March and July 1953, while armistice negotiations neared conclusion. In April, the 31st Infantry Regiment repulsed a PVA assault in vicious close combat. The hill was attacked again in July by two full PVA divisions.</p>
+<p class='sig'>Pork Chop became symbol of stalemate futility; subject of the 1959 film; fighting continued as armistice was being signed</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.133,38.208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pork Chop Hill (Second)</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pork Chop Hill (Second)</h2>
+<table>
+  <tr><td>Date</td><td>1953-07-06 – 1953-07-11</td></tr>
+  <tr><td>Location</td><td>Pork Chop Hill (Hill 255), West Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>17th, 32nd, and 38th Infantry Regiments, 7th Infantry Division, USA</li><li>Ethiopian Battalion (UN)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>200th and 201st Regiments, 67th Division, PVA</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,215 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~9,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Abandoned by UN; PVA occupied</td></tr>
+</table>
+<p>With armistice talks in their final days, two PVA divisions assaulted Pork Chop Hill in the war's final major engagement. Three US battalions were committed to its defense. On July 11, with the armistice imminent, General Maxwell Taylor ordered the hill abandoned to avoid further casualties for terrain that would be in the demilitarized zone anyway.</p>
+<p class='sig'>Last major US ground engagement; abandoned as pointless when armistice was days away; encapsulated war's tragic futility</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.133,38.208,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Outpost Harry</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Outpost Harry</h2>
+<table>
+  <tr><td>Date</td><td>1953-06-10 – 1953-06-18</td></tr>
+  <tr><td>Location</td><td>Outpost Harry, Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>15th Infantry Regiment, 3rd Infantry Division, USA</li><li>Greek Expeditionary Force (UN)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 60th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~1,163 killed or wounded (US and Greek)</td></tr>
+  <tr><td>Enemy Casualties</td><td>~6,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>Nine consecutive nights of PVA assaults against Outpost Harry were repulsed by the US 3rd Infantry Division and Greek Expeditionary Force. The PVA committed nearly 100,000 troops to the central front in June 1953, but Outpost Harry was held throughout. The Greek battalion's successful night counterattacks were particularly noted.</p>
+<p class='sig'>Greek battalion's finest hour in Korea; one of last major defensive victories before armistice; outpost held until war's end</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.2,38.2,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Hook</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Hook</h2>
+<table>
+  <tr><td>Date</td><td>1953-05-28 – 1953-05-29</td></tr>
+  <tr><td>Location</td><td>The Hook, Imjin River Sector, South Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>1st Battalion Duke of Wellington's Regiment (1st Commonwealth Division)</li><li>29th British Brigade elements</li><li>1st Royal Tank Regiment</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 60th Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~700 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~2,500 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN defensive victory</td></tr>
+</table>
+<p>The 1st Battalion Duke of Wellington's Regiment (1st Commonwealth Division) and supporting arms fought off a major PVA assault on the Hook position in the Imjin River bend for two nights. Intense artillery and infantry fighting held the position. The Duke's suffered severe casualties but the Hook remained in Commonwealth hands.</p>
+<p class='sig'>Last major British engagement of the war; Duke of Wellington's regimental battle honour awarded; Hook remained in UN hands to armistice</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.791,37.966,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of the Kumsong Salient</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of the Kumsong Salient</h2>
+<table>
+  <tr><td>Date</td><td>1953-07-13 – 1953-07-16</td></tr>
+  <tr><td>Location</td><td>Kumsong Salient, Central Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>ROK II Corps (5th, 8th, 3rd, and Capital Divisions)</li><li>US 3rd Infantry Division (relief)</li><li>US IX Corps artillery</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 20th Army Group (5 armies — 200,000 troops)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~28,000 ROK killed, wounded, or captured</td></tr>
+  <tr><td>Enemy Casualties</td><td>~25,000 killed or wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA offensive victory; gained 12 miles of ROK territory</td></tr>
+</table>
+<p>The last major offensive of the Korean War, launched by PVA forces four days before the armistice. Five PVA armies attacked the Kumsong River salient held by ROK II Corps, achieving a 12-mile penetration and inflicting massive ROK casualties. US forces moved to stabilize the front. The offensive secured PVA territorial gains to be incorporated into the armistice line.</p>
+<p class='sig'>Last major offensive of the Korean War; secured PVA territorial gains incorporated in armistice; ROK President Rhee's opposition to armistice was a factor in Chinese timing</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>127.6,38.35,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panmunjom Armistice Signing</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Panmunjom Armistice Signing</h2>
+<table>
+  <tr><td>Date</td><td>1953-07-27</td></tr>
+  <tr><td>Location</td><td>Panmunjom, Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>UN Command negotiating team (US, ROK, UK, other UN nations)</li><li>Lt. Gen. William K. Harrison, Jr., USA (UN signatory)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>Korean People's Army and Chinese People's Volunteer Army</li><li>Gen. Nam Il, KPA (Communist signatory)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>Total war cost: ~36,574 US killed in action; ~103,284 US wounded; ~92,134 ROK killed; 628,833 ROK wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>Estimated ~367,000–750,000 Chinese killed or wounded; ~294,000–406,000 KPA killed; 680,000+ KPA wounded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>Armistice; ceasefire along approximately the 38th Parallel</td></tr>
+</table>
+<p>The Korean Armistice Agreement was signed at 10:01 AM at Panmunjom on July 27, 1953, by Lt. Gen. William Harrison (UN Command) and Gen. Nam Il (KPA/PVA). Fighting ceased 12 hours later at 22:00. The agreement established the Military Demarcation Line and Demilitarized Zone that remain in place today. No formal peace treaty has ever been signed.</p>
+<p class='sig'>Ended active combat after 37 months; preserved South Korean independence; no peace treaty ever signed; DMZ remains one of world's most militarized borders</p>
+]]></description>
+      <styleUrl>#phase4</styleUrl>
+      <Point>
+        <coordinates>126.669,37.958,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
