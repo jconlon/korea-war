@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
   <name>Korean War Battle Map (1950-1953)</name>
-  <description>50 significant engagements of the Korean War, grouped by phase. Toggle phase folders to filter by period.</description>
+  <description>61 significant engagements of the Korean War, grouped by phase. Toggle phase folders to filter by period.</description>
   <Style id="phase1">
     <IconStyle>
       <color>ff0000ff</color>
@@ -658,38 +658,6 @@
         <coordinates>125.738,39.019,0</coordinates>
       </Point>
     </Placemark>
-    <Placemark>
-      <name>Battle of Unsan</name>
-      <description><![CDATA[
-<style>
-  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
-  h2{color:#1a1a2e;margin-bottom:4px;}
-  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
-  table{border-collapse:collapse;width:100%;margin-top:8px;}
-  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
-  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
-  ul{margin:2px 0;padding-left:18px;}
-  .outcome{font-weight:bold;}
-  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
-</style>
-<h2>Battle of Unsan</h2>
-<table>
-  <tr><td>Date</td><td>1950-11-01 – 1950-11-02</td></tr>
-  <tr><td>Location</td><td>Unsan, North Korea</td></tr>
-  <tr><td>UN Forces</td><td><ul><li>8th Cavalry Regiment, 1st Cavalry Division, USA</li><li>ROK 1st Division (15th Regiment)</li></ul></td></tr>
-  <tr><td>Opposing Forces</td><td><ul><li>39th Army, Chinese People's Volunteer Army (PVA)</li></ul></td></tr>
-  <tr><td>UN Casualties</td><td>~600 killed, wounded, or captured; 3rd Battalion, 8th Cavalry virtually destroyed</td></tr>
-  <tr><td>Enemy Casualties</td><td>~400 killed or wounded</td></tr>
-  <tr><td>Outcome</td><td class='outcome'>Chinese/KPA victory</td></tr>
-</table>
-<p>The first major engagement between US and Chinese People's Volunteer Army forces. The PVA 39th Army struck the 8th Cavalry Regiment and ROK 1st Division at night, overrunning positions and inflicting severe casualties. US commanders initially dismissed the action as involving only Korean soldiers in Chinese uniforms, fatally underestimating the Chinese intervention.</p>
-<p class='sig'>First major US-China engagement; presaged the catastrophe of late November; 3rd Battalion 8th Cavalry among worst defeats of the war</p>
-]]></description>
-      <styleUrl>#phase2</styleUrl>
-      <Point>
-        <coordinates>125.773,39.993,0</coordinates>
-      </Point>
-    </Placemark>
   </Folder>
   <Folder>
     <name>Phase 3: Chinese Intervention (Oct 1950-Jan 1951)</name>
@@ -755,7 +723,103 @@
 ]]></description>
       <styleUrl>#phase3</styleUrl>
       <Point>
-        <coordinates>126.5,40.5,0</coordinates>
+        <coordinates>125.891,40.106,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Unsan</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Unsan</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-01 – 1950-11-02</td></tr>
+  <tr><td>Location</td><td>Unsan, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>8th Cavalry Regiment, 1st Cavalry Division, USA</li><li>ROK 15th Regiment, ROK 1st Division</li><li>Battery B, 99th Field Artillery Battalion, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 39th Army (115th and 116th Divisions)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>3rd Battalion, 8th Cavalry effectively destroyed — of ~800 engaged, roughly 600 killed, captured, or missing; 1st and 2nd Battalions suffered several hundred additional casualties; exact regimental totals are disputed across sources</td></tr>
+  <tr><td>Enemy Casualties</td><td>not comprehensively tallied by UN forces; assessed as moderate to heavy</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>PVA tactical victory; 3rd Battalion, 8th Cavalry Regiment destroyed as a fighting force</td></tr>
+</table>
+<p>On the night of November 1, the PVA 39th Army struck the ROK 15th Regiment (ROK 1st Division) covering the 8th Cavalry Regiment's left flank north of Unsan; the ROK line collapsed within hours, opening the regiment to envelopment from the northwest. The 3rd Battalion, 8th Cavalry, reinforced by Battery B, 99th Field Artillery Battalion, was cut off south of the Nammyon River in a horseshoe bend the survivors came to call 'the perimeter' and was overrun attempting to break out on the night of November 1–2; the 1st and 2nd Battalions, badly mauled, withdrew with heavy loss. This was the first large-scale clash between US Army ground forces and Chinese Communist Forces in Korea.</p>
+<p class='sig'>First major engagement between the US Army and the Chinese Communist Forces; unlike the Marines' near-simultaneous fight at Sudong, Eighth Army and FECOM intelligence (Willoughby) treated Unsan as a local reverse rather than proof of large-scale Chinese commitment — an underestimation Appleman identifies as a direct antecedent of the November 24 'Home by Christmas' offensive and the Second Phase Offensive disaster that followed; see Appleman, Disaster in Korea</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>125.803,39.972,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Sudong</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Sudong</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-02 – 1950-11-07</td></tr>
+  <tr><td>Location</td><td>Sudong, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>7th Marine Regiment, 1st Marine Division, USA</li><li>1st Battalion, 11th Marines (artillery)</li><li>1st Marine Aircraft Wing (close air support)</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 124th Division, 42nd Army</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~350 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>~1,500 killed, wounded, or captured; PVA 124th Division rendered combat-ineffective for several weeks</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN tactical victory; PVA 124th Division shattered</td></tr>
+</table>
+<p>As the 1st Marine Division advanced north from Hamhung toward the Chosin plateau, the 7th Marines made first contact with organized Chinese forces in a night ambush near Sudong on November 2–3 — occurring within days of the Eighth Army's parallel, unrelated clash at Unsan on the opposite side of the peninsula. Over five days of fighting through the gorge terrain south of Chinhung-ni, the 7th Marines, supported by 1st Battalion, 11th Marines and 1st Marine Aircraft Wing close air support, defeated the PVA 124th Division (42nd Army) and drove it back into the mountains.</p>
+<p class='sig'>First Marine Corps contact with Chinese forces in Korea. Where Eighth Army's G-2 discounted the near-simultaneous action at Unsan, Maj. Gen. Oliver Smith drew the opposite conclusion from Sudong — slowing the 1st Marine Division's advance, stockpiling supply points at Koto-ri and Hagaru-ri, and resisting X Corps pressure to rush to the Yalu. That caution, per Appleman, gave the division the logistics base and defensible terrain it needed to survive encirclement at Yudam-ni and Hagaru-ri three weeks later — a case study in how identical evidence produced opposite responses from Army and Marine commands</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>127.324,40.17,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Battle of Pakchon</name>
+      <description><![CDATA[
+<style>
+  body{font-family:Arial,sans-serif;font-size:13px;max-width:500px;}
+  h2{color:#1a1a2e;margin-bottom:4px;}
+  .phase-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:bold;margin-bottom:8px;}
+  table{border-collapse:collapse;width:100%;margin-top:8px;}
+  td{padding:4px 8px;vertical-align:top;border-bottom:1px solid #eee;}
+  td:first-child{font-weight:bold;white-space:nowrap;color:#555;width:120px;}
+  ul{margin:2px 0;padding-left:18px;}
+  .outcome{font-weight:bold;}
+  .sig{font-style:italic;color:#444;margin-top:8px;border-left:3px solid #ccc;padding-left:8px;}
+</style>
+<h2>Battle of Pakchon</h2>
+<table>
+  <tr><td>Date</td><td>1950-11-04 – 1950-11-05</td></tr>
+  <tr><td>Location</td><td>Pakchon, North Korea</td></tr>
+  <tr><td>UN Forces</td><td><ul><li>27th British Commonwealth Brigade (1st Bn, Argyll and Sutherland Highlanders; 3rd Bn, Royal Australian Regiment)</li><li>89th Medium Tank Battalion, USA</li></ul></td></tr>
+  <tr><td>Opposing Forces</td><td><ul><li>PVA 39th Army (rearguard elements)</li></ul></td></tr>
+  <tr><td>UN Casualties</td><td>~75 killed or wounded</td></tr>
+  <tr><td>Enemy Casualties</td><td>several hundred estimated; precise PVA figures unrecorded</td></tr>
+  <tr><td>Outcome</td><td class='outcome'>UN tactical victory; Taeryong River crossing secured</td></tr>
+</table>
+<p>Ordered to secure a Taeryong River crossing near Pakchon to cover the withdrawal of battered ROK and US forces after Onjong and Unsan, the 27th British Commonwealth Brigade (1st Bn, Argyll and Sutherland Highlanders; 3rd Bn, Royal Australian Regiment), with the US 89th Medium Tank Battalion attached, fought a sharp two-day action against a PVA 39th Army rearguard covering the Chinese withdrawal. The Australians secured high ground overlooking the ford while the Argylls and tanks cleared the town. It was the last significant contact of the First Phase Offensive before the PVA broke contact entirely and withdrew into the mountains, opening the deceptive lull that Eighth Army read as the end of Chinese intervention.</p>
+<p class='sig'>Closing action of the CCF First Phase Offensive; the Chinese disengagement that followed reinforced Eighth Army and FECOM's assessment that the intervention had been a limited, defensive gesture — the same misreading, compounded across Onjong, Unsan, and Pakchon, that enabled MacArthur's November 24 'Home by Christmas' offensive into a concealed Second Phase Offensive buildup</p>
+]]></description>
+      <styleUrl>#phase3</styleUrl>
+      <Point>
+        <coordinates>125.591,39.659,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1032,14 +1096,14 @@
 <table>
   <tr><td>Date</td><td>1950-11-25 – 1950-12-02</td></tr>
   <tr><td>Location</td><td>Ch'ongch'on River, North Korea</td></tr>
-  <tr><td>UN Forces</td><td><ul><li>US Eighth Army (I, IX Corps)</li><li>ROK II Corps</li><li>2nd Infantry Division, USA</li><li>Turkish Brigade</li></ul></td></tr>
+  <tr><td>UN Forces</td><td><ul><li>US Eighth Army (I, IX Corps)</li><li>ROK II Corps</li><li>2nd Infantry Division, USA</li><li>25th Infantry Division, USA</li><li>1st Cavalry Division, USA</li><li>Turkish Brigade</li></ul></td></tr>
   <tr><td>Opposing Forces</td><td><ul><li>13th Army Group, PVA (38th, 39th, 40th, 42nd Armies)</li></ul></td></tr>
   <tr><td>UN Casualties</td><td>~11,000 killed, wounded, or captured (including ~5,000 from 2nd Division alone)</td></tr>
   <tr><td>Enemy Casualties</td><td>~30,000 killed or wounded</td></tr>
   <tr><td>Outcome</td><td class='outcome'>PVA decisive victory; UN forced into longest retreat in US military history</td></tr>
 </table>
-<p>The PVA's massive surprise offensive struck Eighth Army's extended right flank along the Ch'ongch'on River. The ROK II Corps collapsed, exposing the US IX Corps to envelopment. General Walton Walker ordered a general retreat that did not stop until below the 38th Parallel, the longest retreat in US Army history.</p>
-<p class='sig'>Transformed the war; UN forces retreated 120 miles in two weeks; Wake Island victory mood replaced by potential evacuation</p>
+<p>MacArthur's 'Home by Christmas' offensive, launched November 24 on the strength of Eighth Army's belief that the Chinese had withdrawn after Onjong, Unsan, and Pakchon, walked directly into the concealed buildup of the PVA 13th Army Group — some 180,000 men massed in the mountains north of the Ch'ongch'on since early November. The PVA struck the exposed IX Corps right flank on the night of November 25–26 in concert with the Tokchon breakthrough against ROK II Corps. Lt. Gen. Walton Walker, with his eastern anchor gone and IX Corps (2nd, 25th, and 1st Cavalry Divisions) threatened with envelopment, ordered a general withdrawal on November 28 that did not stop at the Ch'ongch'on, at Pyongyang — evacuated and demolished December 4–5 — or at the 38th Parallel, becoming the longest retreat in US Army history.</p>
+<p class='sig'>Transformed the war; UN forces retreated roughly 120 miles from the Ch'ongch'on past Pyongyang in under two weeks; the Wake Island victory mood of October gave way to serious contingency planning for a full evacuation of the peninsula; Appleman's Disaster in Korea treats the Second Phase Offensive as the direct, foreseeable consequence of the intelligence failures at Onjong, Unsan, and Pakchon three weeks earlier</p>
 ]]></description>
       <styleUrl>#phase3</styleUrl>
       <Point>
@@ -1064,14 +1128,14 @@
 <table>
   <tr><td>Date</td><td>1950-11-29 – 1950-12-01</td></tr>
   <tr><td>Location</td><td>Kunu-ri, North Korea</td></tr>
-  <tr><td>UN Forces</td><td><ul><li>2nd Infantry Division, USA (9th, 23rd, and 38th Infantry Regiments)</li><li>Turkish Brigade</li></ul></td></tr>
+  <tr><td>UN Forces</td><td><ul><li>2nd Infantry Division, USA (9th, 23rd, and 38th Infantry Regiments)</li><li>2nd Engineer Combat Battalion, USA</li><li>Turkish Brigade</li><li>French Battalion (attached, 23rd Infantry)</li></ul></td></tr>
   <tr><td>Opposing Forces</td><td><ul><li>113th Division, 38th Army, PVA</li></ul></td></tr>
-  <tr><td>UN Casualties</td><td>~4,500 killed, wounded, or captured; 2nd Division lost most of its equipment</td></tr>
+  <tr><td>UN Casualties</td><td>~4,500 killed, wounded, or captured; 2nd Division lost most of its equipment; losses fell overwhelmingly on the 9th and 38th Infantry and division trains, while the 23rd Infantry's bypass route largely spared it</td></tr>
   <tr><td>Enemy Casualties</td><td>~2,000 killed or wounded</td></tr>
   <tr><td>Outcome</td><td class='outcome'>PVA victory; 2nd Division suffered catastrophic losses</td></tr>
 </table>
-<p>As Eighth Army retreated from the Ch'ongch'on River disaster, the PVA blocked the main withdrawal route at Kunu-ri. The 2nd Infantry Division fought through a six-mile ambush gauntlet under constant fire from both sides of the road, suffering catastrophic losses. The 'gauntlet' became one of the most notorious passages in US Army history.</p>
-<p class='sig'>One of worst defeats in US Army history; 2nd Division required months of rebuilding; precipitated full Eighth Army withdrawal</p>
+<p>With IX Corps' other divisions already clearing south, the 2nd Infantry Division was ordered down the single road south of Kunu-ri on November 30 and found the PVA 38th Army already dug in on the high ground overlooking roughly six miles of it. The division's vehicle column — guns, wounded, and infantry strung out nose-to-tail — was raked by small-arms and machine-gun fire from both flanks; wrecked vehicles clogged the road, forcing men to abandon transport and walk out under fire. Col. Paul Freeman's 23rd Infantry Regiment, with the attached French Battalion, was rerouted by corps order onto an alternate secondary road east through Anju and bypassed the gauntlet entirely, reaching Sunchon largely intact — a contrast Appleman uses to show how completely a unit's fate turned on route assignment that day. The 9th and 38th Infantry Regiments, the division artillery, and the 2nd Engineer Combat Battalion, providing local security along the column, absorbed the worst of the losses.</p>
+<p class='sig'>One of the worst defeats in US Army history; 2nd Division required months of rebuilding before returning to the line; the 'gauntlet' precipitated the full Eighth Army withdrawal and became, per Appleman, the emblematic disaster of the Ch'ongch'on collapse</p>
 ]]></description>
       <styleUrl>#phase3</styleUrl>
       <Point>
@@ -1102,8 +1166,8 @@
   <tr><td>Enemy Casualties</td><td>~2,000 pursuing forces killed by naval gunfire and air strikes</td></tr>
   <tr><td>Outcome</td><td class='outcome'>Successful UN evacuation</td></tr>
 </table>
-<p>X Corps conducted a successful evacuation by sea from Hungnam over two weeks, loading over 100,000 troops, 17,500 vehicles, 350,000 tons of cargo, and 98,000 North Korean civilian refugees onto 193 ships. The final evacuation on Christmas Eve included the demolition of port facilities. The SS Meredith Victory carried 14,000 refugees in a single voyage.</p>
-<p class='sig'>Largest amphibious evacuation since Dunkirk; 98,000 civilian refugees brought to safety; port demolished to deny PVA use</p>
+<p>Maj. Gen. Edward Almond's X Corps, its overland escape route cut off by the collapse further west, withdrew into a contracting Hungnam beachhead and evacuated by sea under Rear Adm. James Doyle's Task Force 90, with the 3rd Infantry Division holding the perimeter as final rearguard while the 1st Marine Division, 7th Infantry Division, and ROK I Corps embarked ahead of it. Over two weeks, 193 ships lifted over 100,000 troops, 17,500 vehicles, and 350,000 tons of cargo, covered throughout by naval gunfire including the battleship USS Missouri. Lt. Col. Edward Forney's advocacy, together with pressure from Korean civil officials, secured space for roughly 98,000 North Korean refugees fleeing south; the SS Meredith Victory, under Capt. Leonard LaRue, carried some 14,000 of them in a single voyage without a single death recorded en route. The final elements withdrew on December 24, and engineers demolished the port facilities and remaining stores behind them.</p>
+<p class='sig'>Largest amphibious evacuation since Dunkirk; 98,000 civilian refugees brought to safety; port demolished to deny PVA use. X Corps was subsequently redeployed to South Korea and placed under Eighth Army operational control, ending the divided FECOM/EUSAK command structure that had complicated coordination between Walker's and Almond's commands throughout the Chinese intervention</p>
 ]]></description>
       <styleUrl>#phase3</styleUrl>
       <Point>

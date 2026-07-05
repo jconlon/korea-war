@@ -127,14 +127,13 @@ let p2_name = "Phase 2: UN Counter-Offensive (Sep-Oct 1950)"
 let p3_name = "Phase 3: Chinese Intervention (Oct 1950-Jan 1951)"
 let p4_name = "Phase 4: Stalemate (Jan 1951-Jul 1953)"
 let doc_name = "Korean War Battle Map (1950-1953)"
-let doc_desc = "50 significant engagements of the Korean War, grouped by phase. Toggle phase folders to filter by period."
+let count = ($battles | length)
+let doc_desc = $"($count) significant engagements of the Korean War, grouped by phase. Toggle phase folders to filter by period."
 
 let folder1 = phase-folder $battles 1 $p1_name "phase1"
 let folder2 = phase-folder $battles 2 $p2_name "phase2"
 let folder3 = phase-folder $battles 3 $p3_name "phase3"
 let folder4 = phase-folder $battles 4 $p4_name "phase4"
-
-let count = ($battles | length)
 
 let kml = $"<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <kml xmlns=\"http://www.opengis.net/kml/2.2\">

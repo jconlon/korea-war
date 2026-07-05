@@ -1,6 +1,6 @@
 # Korean War Battle Map (1950–1953)
 
-An interactive geospatial reference for 59 significant engagements of the Korean War, from the KPA's June 1950 invasion through the Panmunjom armistice of July 1953.
+An interactive geospatial reference for 61 significant engagements of the Korean War, from the KPA's June 1950 invasion through the Panmunjom armistice of July 1953.
 
 ## Outputs
 
@@ -20,8 +20,8 @@ Open in Google Earth or Google Maps. Battles are organized into four phase folde
 | # | Period | Dates | Engagements |
 |---|--------|-------|-------------|
 | 1 | North Korean Invasion | Jun–Sep 1950 | 13 |
-| 2 | UN Counter-Offensive | Sep–Oct 1950 | 7 |
-| 3 | Chinese Intervention | Oct 1950–Jan 1951 | 17 |
+| 2 | UN Counter-Offensive | Sep–Oct 1950 | 6 |
+| 3 | Chinese Intervention | Oct 1950–Jan 1951 | 20 |
 | 4 | Stalemate | Jan 1951–Jul 1953 | 22 |
 
 ## Nov–Dec 1950 Coverage
@@ -29,6 +29,9 @@ Open in Google Earth or Google Maps. Battles are organized into four phase folde
 The Chinese intervention phase is documented at sub-engagement granularity, drawing on Roy Appleman's *Disaster in Korea*:
 
 - Chinese 1st Phase Offensive / Battle of Onjong
+- Battle of Unsan (8th Cavalry Regiment's destruction, first US Army–CCF clash)
+- Battle of Sudong (7th Marines' first contact with the CCF 124th Division)
+- Battle of Pakchon (27th British Commonwealth Brigade rearguard action)
 - ROK II Corps collapse at Tokchon
 - Turkish Brigade at Wawon
 - Battle of Yudam-ni (5th and 7th Marines)
