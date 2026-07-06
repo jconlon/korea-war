@@ -1,3 +1,7 @@
+# Default: list recipes
+default:
+    @just --list
+
 # Generate KML and sync web map from battle data
 build:
     mkdir -p output
